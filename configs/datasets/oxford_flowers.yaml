@@ -1,0 +1,5 @@
+DATASET:
+  NAME: "OxfordFlowers"
+
+# MODEL:
+#   INIT_SEED: 24

@@ -1,0 +1,10 @@
+CFG=$1
+DEVICE=$2
+load=$3
+for SEED in 1 2 3
+do
+    bash scripts/promptsrc/xd_test.sh imagenetv2 ${SEED} ${DEVICE} ${CFG} ${load}
+    bash scripts/promptsrc/xd_test.sh imagenet_sketch ${SEED} ${DEVICE} ${CFG} ${load}
+    bash scripts/promptsrc/xd_test.sh imagenet_a ${SEED} ${DEVICE} ${CFG} ${load}
+    bash scripts/promptsrc/xd_test.sh imagenet_r ${SEED} ${DEVICE} ${CFG} ${load}
+done

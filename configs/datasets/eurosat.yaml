@@ -1,0 +1,15 @@
+DATASET:
+  NAME: "EuroSAT"
+
+# 33: 10 3 2
+# 2023 10 2 2
+# OPTIM:
+#   MAX_EPOCH: 10
+#   WARMUP_EPOCH: 2
+
+# TRAIN:
+#   PATIENT_COUNT: 1
+
+# MODEL:
+#   INIT_SEED: 33
+
